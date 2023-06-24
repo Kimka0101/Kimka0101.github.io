@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.shapka{
+  z-index: 100;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    position:fixed;
+    width:100%;
+}
+	.shapka li { display: inline; }
+	.shapka a {
+	  color: #fff;
+	  padding: 5px 47px;
+	  text-decoration: none;
+	  font-weight: bold;
+	  display: inline-block;
+	  width: 100px;
+	}
+	.shapka a:hover{
+        border-radius: 20px 5px;
+        background-color:gray;
+      }
+
+.nav_list{
+display: flex;
+color: white;
+list-style-type: none;
+width: 741px;
+justify-content: space-around;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size:25px ;
+}
+img_header>img{
+    margin-left: 10px;
+}
+.vertical-menu {
+  position:absolute;
+    width: 230px; /* Установите ширину, если хотите */
+
+  }
+  
+  .vertical-menu a {
+    background-color:#F2ECD4; /* Серый цвет фона */
+    color: black; /* Черный цвет текста */
+    display: block; /* Сделайте так, чтобы ссылки отображались друг под другом */
+    padding: 12px; /* Добавьте отступ */
+    text-decoration: none; /* Удалить подчеркивание из ссылок */
+  }
+  
+.pustota{
+    height: 120px;
+}
+ 
+  .container div {
+    margin-left: 450px;
+  }
+  .im1 {
+    width: 50%;  
+    border-radius: 21px;
+   
+  }
+  .img2 {
+   width:67%;
+ }
+ body{
+    background-image: url(images/fon1.jpg);
+    background-color:#F2E8C4 ;
+    background-repeat: repeat;
+    background-size: 100% 210vh;
+    background-attachment: fixed;
+    margin: 0;
+}
+footer{
+    display: flex;
+    background-color: #F2ECD4;
+    font-family: Tele;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+h1,h2{
+    margin: 0;
+    text-align: center;
+}
+main{
+    margin:50px 20%;
+    background-color: #F2ECD4;
+    border-radius: 10px;
+    padding: 50px;
+    min-height: calc(100vh - 92px - 80px - 100px);
+}
+.zagolovok{
+    color: #000000;
+	text-shadow: 
+		-0   -2px 0   #FFFFFF,
+		 0   -2px 0   #FFFFFF,
+		-0    2px 0   #FFFFFF,
+		 0    2px 0   #FFFFFF,
+		-2px -0   0   #FFFFFF,
+		 2px -0   0   #FFFFFF,
+		-2px  0   0   #FFFFFF,
+		 2px  0   0   #FFFFFF,
+		-1px -2px 0   #FFFFFF,
+		 1px -2px 0   #FFFFFF,
+		-1px  2px 0   #FFFFFF,
+		 1px  2px 0   #FFFFFF,
+		-2px -1px 0   #FFFFFF,
+		 2px -1px 0   #FFFFFF,
+		-2px  1px 0   #FFFFFF,
+		 2px  1px 0   #FFFFFF,
+		-2px -2px 0   #FFFFFF,
+		 2px -2px 0   #FFFFFF,
+		-2px  2px 0   #FFFFFF,
+		 2px  2px 0   #FFFFFF,
+		-2px -2px 0   #FFFFFF,
+		 2px -2px 0   #FFFFFF,
+		-2px  2px 0   #FFFFFF,
+		 2px  2px 0   #FFFFFF;
+}
+.pustota2{
+height: 30px;
+}
+.eda>img{
+    display:inline-block;
+     width:45%;
+    height:35%; 
+}
+.eda>h2{
+    margin-right: 20px;
+    vertical-align: top;
+    padding: 30px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 10px;
+}
+    .eda>h1{
+        margin-left: 380px;
+        display: inline-block;
+        font-size: 30px;
+        font-weight: 20px;
+}
+.icon{
+    display:inline-block;
+}
